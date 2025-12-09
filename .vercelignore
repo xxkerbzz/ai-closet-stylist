@@ -1,0 +1,6 @@
+node_modules
+.git
+web/.next
+web/.env*.local
+*.log
+.DS_Store

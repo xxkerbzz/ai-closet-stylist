@@ -1,0 +1,172 @@
+# Supporting Pages Structure
+#
+# AI-Powered Wardrobe Management
+# └── Computer Vision Wardrobe Scanning
+#     ├── How does computer vision scan wardrobes?
+#     └── What clothing items can AI identify?
+#
+# Digital Closet Organization
+# └── Wardrobe Inventory Systems
+#     ├── How to organize a digital wardrobe?
+#     └── What is the best wardrobe inventory app?
+#
+# Sustainable Fashion Practices
+# └── Clothing Resale Strategies
+#     ├── How to determine resale value of clothing?
+#     └── What clothes are worth reselling?
+
+---
+
+silos:
+  - silo_name: "AI-Powered Wardrobe Management"
+    entity_relationships:
+      primary_entity: "AI-powered wardrobe management"
+      supporting_entities:
+        - "computer vision"
+        - "machine learning"
+        - "outfit recommendations"
+        - "wardrobe scanning"
+      related_entities_other_silos:
+        "Digital Closet Organization": "AI-powered wardrobe management enables digital closet organization through automated scanning and categorization"
+        "Sustainable Fashion Practices": "AI-powered wardrobe management supports sustainable fashion by identifying resale opportunities and donation candidates"
+    
+    cross_silo_linking:
+      link_to:
+        - silo: "Digital Closet Organization"
+          reason: "When discussing how AI scanning creates organized digital inventories"
+        - silo: "Sustainable Fashion Practices"
+          reason: "When explaining how AI identifies items for resale or donation"
+      link_from:
+        - "Digital Closet Organization"
+        - "Sustainable Fashion Practices"
+    
+    main_pillar:
+      url: /resources/ai-powered-wardrobe-management
+      title: "AI-Powered Wardrobe Management: Complete Guide"
+      h1: "AI-Powered Wardrobe Management: Complete Guide"
+      meta_description: "Discover how AI-powered wardrobe management uses computer vision and machine learning to digitize closets, suggest outfits, and maximize clothing value."
+      primary_keyword: "ai-powered wardrobe management"
+      word_count: 3500
+      schema_type: Article
+    
+    subtopic_pillars:
+      - url: /resources/ai-powered-wardrobe-management/computer-vision-wardrobe-scanning
+        title: "Computer Vision Wardrobe Scanning: Complete Guide"
+        meta_description: "Learn how computer vision technology scans and digitizes wardrobes automatically, identifying clothing items, brands, and styles from photos."
+        primary_keyword: "computer vision wardrobe scanning"
+        word_count: 2200
+        schema_type: Article
+    
+    paa_posts:
+      defaults:
+        word_count: 1200
+        schema_type: Article, FAQPage
+      posts:
+        - title: "How does computer vision scan wardrobes?"
+          slug: "how-does-computer-vision-scan-wardrobes"
+          parent: "computer-vision-wardrobe-scanning"
+        - title: "What clothing items can AI identify from photos?"
+          slug: "what-clothing-items-can-ai-identify-from-photos"
+          parent: "computer-vision-wardrobe-scanning"
+
+  - silo_name: "Digital Closet Organization"
+    entity_relationships:
+      primary_entity: "digital closet organization"
+      supporting_entities:
+        - "wardrobe inventory"
+        - "style analytics"
+        - "outfit planning"
+        - "clothing categorization"
+      related_entities_other_silos:
+        "AI-Powered Wardrobe Management": "Digital closet organization is enabled by AI-powered scanning and categorization technology"
+        "Sustainable Fashion Practices": "Organized digital closets help identify items for resale or donation"
+    
+    cross_silo_linking:
+      link_to:
+        - silo: "AI-Powered Wardrobe Management"
+          reason: "When explaining how AI enables automated organization"
+        - silo: "Sustainable Fashion Practices"
+          reason: "When discussing how organization helps identify disposal opportunities"
+      link_from:
+        - "AI-Powered Wardrobe Management"
+        - "Sustainable Fashion Practices"
+    
+    main_pillar:
+      url: /resources/digital-closet-organization
+      title: "Digital Closet Organization: Complete Guide"
+      h1: "Digital Closet Organization: Complete Guide"
+      meta_description: "Learn how digital closet organization systems help you manage your wardrobe inventory, plan outfits, and gain style insights from your clothing collection."
+      primary_keyword: "digital closet organization"
+      word_count: 3500
+      schema_type: Article
+    
+    subtopic_pillars:
+      - url: /resources/digital-closet-organization/wardrobe-inventory-systems
+        title: "Wardrobe Inventory Systems: Complete Guide"
+        meta_description: "Discover how wardrobe inventory systems digitize your clothing collection, making it searchable and organized for better outfit planning and style management."
+        primary_keyword: "wardrobe inventory systems"
+        word_count: 2200
+        schema_type: Article
+    
+    paa_posts:
+      defaults:
+        word_count: 1200
+        schema_type: Article, FAQPage
+      posts:
+        - title: "How to organize a digital wardrobe?"
+          slug: "how-to-organize-a-digital-wardrobe"
+          parent: "wardrobe-inventory-systems"
+        - title: "What is the best wardrobe inventory app?"
+          slug: "what-is-the-best-wardrobe-inventory-app"
+          parent: "wardrobe-inventory-systems"
+
+  - silo_name: "Sustainable Fashion Practices"
+    entity_relationships:
+      primary_entity: "sustainable fashion practices"
+      supporting_entities:
+        - "clothing resale"
+        - "donation strategies"
+        - "wardrobe decluttering"
+        - "fashion waste reduction"
+      related_entities_other_silos:
+        "AI-Powered Wardrobe Management": "AI-powered wardrobe management supports sustainable fashion by identifying resale and donation opportunities"
+        "Digital Closet Organization": "Organized digital closets make it easier to identify items for sustainable disposal"
+    
+    cross_silo_linking:
+      link_to:
+        - silo: "AI-Powered Wardrobe Management"
+          reason: "When explaining how AI identifies items for resale or donation"
+        - silo: "Digital Closet Organization"
+          reason: "When discussing how organization supports sustainable decisions"
+      link_from:
+        - "AI-Powered Wardrobe Management"
+        - "Digital Closet Organization"
+    
+    main_pillar:
+      url: /resources/sustainable-fashion-practices
+      title: "Sustainable Fashion Practices: Complete Guide"
+      h1: "Sustainable Fashion Practices: Complete Guide"
+      meta_description: "Learn sustainable fashion practices including clothing resale strategies, donation decision-making, and wardrobe decluttering methods to reduce fashion waste."
+      primary_keyword: "sustainable fashion practices"
+      word_count: 3500
+      schema_type: Article
+    
+    subtopic_pillars:
+      - url: /resources/sustainable-fashion-practices/clothing-resale-strategies
+        title: "Clothing Resale Strategies: Complete Guide"
+        meta_description: "Discover effective clothing resale strategies to maximize value from your wardrobe, including pricing, platform selection, and item preparation."
+        primary_keyword: "clothing resale strategies"
+        word_count: 2200
+        schema_type: Article
+    
+    paa_posts:
+      defaults:
+        word_count: 1200
+        schema_type: Article, FAQPage
+      posts:
+        - title: "How to determine resale value of clothing?"
+          slug: "how-to-determine-resale-value-of-clothing"
+          parent: "clothing-resale-strategies"
+        - title: "What clothes are worth reselling?"
+          slug: "what-clothes-are-worth-reselling"
+          parent: "clothing-resale-strategies"

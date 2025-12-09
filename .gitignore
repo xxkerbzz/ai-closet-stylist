@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+web/node_modules/
+
+# Build outputs
+web/.next/
+web/out/
+web/build/
+
+# Environment variables
+.env
+.env*.local
+web/.env
+web/.env*.local
+
+# Vercel
+.vercel/
+web/.vercel
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+web/next-env.d.ts

@@ -1,0 +1,183 @@
+# Core Pages Structure
+# 
+# ├── About
+# ├── Contact
+# ├── FAQ
+# ├── Product
+# ├── Features
+# ├── Privacy Policy
+# └── Terms of Service
+
+---
+
+core_pages:
+  - url: /about
+    title: About AI Closet Stylist - Smart Wardrobe Management
+    h1: About AI Closet Stylist
+    purpose: Company story, mission, team, vision for transforming wardrobe management
+    business_goal: Build trust and credibility with fashion-conscious consumers
+    target_audience: Fashion-conscious individuals aged 25-45 who want automated wardrobe management
+    primary_keyword: about ai closet stylist
+    content_outline:
+      h2s:
+        - Our Mission
+        - Why We Built This
+        - The Problem We're Solving
+        - Our Vision for Sustainable Fashion
+        - Meet the Team
+    key_messaging:
+      - "Combines automated scanning with comprehensive value analysis"
+      - "Transforms wardrobe management from a chore into an intelligent system that saves time, money, and reduces fashion waste"
+    cta_strategy: Download the app to start digitizing your wardrobe
+    schema_type: Organization
+
+  - url: /contact
+    title: Contact AI Closet Stylist
+    h1: Contact Us
+    purpose: Contact form, support information, feedback channels
+    business_goal: Enable user inquiries and support requests
+    target_audience: Current and potential users seeking help or information
+    primary_keyword: contact ai closet stylist
+    content_outline:
+      h2s:
+        - Get in Touch
+        - Support Options
+        - Feedback and Suggestions
+        - Partnership Inquiries
+    key_messaging:
+      - "We're here to help you maximize your wardrobe's value"
+    cta_strategy: Submit your question or feedback
+    schema_type: ContactPage
+
+  - url: /faq
+    title: Frequently Asked Questions - AI Closet Stylist
+    h1: Frequently Asked Questions
+    purpose: Answer common questions about the app, features, and usage
+    business_goal: Reduce support burden and address user concerns
+    target_audience: Potential users with questions about functionality
+    primary_keyword: ai closet stylist faq
+    content_outline:
+      h2s:
+        - How It Works
+        - Features and Functionality
+        - Pricing and Availability
+        - Privacy and Data
+    key_messaging:
+      - "Zero manual data entry required"
+      - "Instant insights and actionable recommendations"
+    cta_strategy: Download the app to get started
+    schema_type: FAQPage
+
+  - url: /product
+    title: AI Closet Stylist - Smart Wardrobe Management App
+    h1: AI Closet Stylist
+    purpose: Product overview, key features, value proposition
+    business_goal: Convert visitors to app downloads
+    target_audience: Fashion-conscious consumers looking for wardrobe solutions
+    primary_keyword: ai closet stylist app
+    content_outline:
+      h2s:
+        - Your Entire Wardrobe, Digitized in Minutes
+        - AI-Powered Outfit Recommendations
+        - Resale Price Estimates
+        - Donation Recommendations
+        - Style Analytics
+        - How It Works
+    key_messaging:
+      - "Your entire wardrobe, digitized in minutes. Get AI-powered outfit suggestions, discover resale values, and identify items to donate—all from photos of your clothes"
+      - "No manual entry, instant insights, and actionable recommendations that save time and money"
+    cta_strategy: Download the app now
+    schema_type: SoftwareApplication
+
+  - url: /features
+    title: Features - AI Closet Stylist App
+    h1: Features
+    purpose: Detailed feature descriptions and benefits
+    business_goal: Showcase product capabilities and differentiators
+    target_audience: Users evaluating the app's functionality
+    primary_keyword: ai closet stylist features
+    content_outline:
+      h2s:
+        - Wardrobe Scanning
+        - AI Outfit Recommendations
+        - Resale Price Estimation
+        - Donation Recommendations
+        - Digital Closet Organization
+        - Style Analytics
+    key_messaging:
+      - "Computer vision automatically identifies, categorizes, and catalogs clothing items"
+      - "Integration of resale pricing and donation recommendations is unique"
+    cta_strategy: Try all features free
+    schema_type: WebPage
+
+  - url: /privacy
+    title: Privacy Policy - AI Closet Stylist
+    h1: Privacy Policy
+    purpose: Legal privacy policy and data handling information
+    business_goal: Legal compliance and user trust
+    target_audience: All users
+    primary_keyword: ai closet stylist privacy policy
+    content_outline:
+      h2s:
+        - Information We Collect
+        - How We Use Your Information
+        - Data Security
+        - Your Rights
+        - Contact Us
+    key_messaging:
+      - "We respect your privacy and protect your data"
+    cta_strategy: Contact us with privacy questions
+    schema_type: WebPage
+
+  - url: /terms
+    title: Terms of Service - AI Closet Stylist
+    h1: Terms of Service
+    purpose: Legal terms and conditions of use
+    business_goal: Legal compliance
+    target_audience: All users
+    primary_keyword: ai closet stylist terms of service
+    content_outline:
+      h2s:
+        - Acceptance of Terms
+        - Use of the Service
+        - User Content
+        - Intellectual Property
+        - Limitation of Liability
+    key_messaging:
+      - "Clear terms for using our service"
+    cta_strategy: Contact us with questions
+    schema_type: WebPage
+
+navigation:
+  header:
+    - label: Home
+      url: /
+    - label: Product
+      url: /product
+    - label: Features
+      url: /features
+    - label: Resources
+      url: /resources
+      dropdown:
+        - label: "AI-Powered Wardrobe Management"
+          url: /resources/ai-powered-wardrobe-management
+        - label: "Digital Closet Organization"
+          url: /resources/digital-closet-organization
+        - label: "Sustainable Fashion Practices"
+          url: /resources/sustainable-fashion-practices
+    - label: About
+      url: /about
+    - label: Contact
+      url: /contact
+  
+  footer:
+    - label: About
+      url: /about
+    - label: Contact
+      url: /contact
+    - label: FAQ
+      url: /faq
+    - label: Privacy
+      url: /privacy
+    - label: Terms
+      url: /terms
