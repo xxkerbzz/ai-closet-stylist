@@ -87,7 +87,7 @@ After pushing to GitHub:
 2. Click "Add New Project"
 3. Import the GitHub repository
 4. Configure:
-   - **Root Directory:** `web`
+   - **Root Directory:** `.` (root of repository)
    - **Framework Preset:** Next.js
 5. Set environment variable: `NEXT_PUBLIC_SITE_URL`
 6. Deploy
@@ -120,10 +120,12 @@ ai-closet-stylist/
 ├── SEO Strategy/
 │   ├── content/            # Markdown content files
 │   └── *.yaml              # Site structure
-├── web/                    # Next.js application
-│   ├── app/               # App Router
-│   ├── public/            # Static assets
-│   └── package.json       # Dependencies
+├── app/                    # Next.js App Router
+│   ├── components/         # React components
+│   ├── lib/               # Utility functions
+│   └── resources/         # Dynamic SEO content routes
+├── public/                 # Static assets
+├── package.json            # Dependencies
 ├── .gitignore
 ├── README.md
 └── DEPLOYMENT.md
@@ -132,3 +134,5 @@ ai-closet-stylist/
 ---
 
 **Status:** ✅ Ready to push to GitHub
+
+

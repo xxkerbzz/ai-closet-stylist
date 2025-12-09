@@ -1,103 +1,64 @@
-# AI Closet Stylist
+# AI Closet Stylist - Web Application
 
-AI-powered wardrobe management app that scans wardrobes and suggests outfits, resale prices, and donation recommendations.
+Next.js application for AI Closet Stylist wardrobe management platform.
+
+## Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
 
 ## Project Structure
 
 ```
 ai-closet-stylist/
-├── Project Files/
-│   └── project-document.md        # PRD
-├── SEO Strategy/
-│   ├── 01. Topical Map.md         # Topic hierarchy
-│   ├── 02. Core Pages.yaml        # Commercial pages
-│   ├── 03. Supporting Pages.yaml  # SEO content silos
-│   ├── Build Progress.md          # Build tracking
-│   └── content/                   # Markdown content files
-└── web/                           # Next.js project
-    ├── app/                       # App Router pages
-    ├── public/                    # Static assets
-    └── package.json               # Dependencies
+├── app/                    # Next.js App Router
+│   ├── components/        # React components
+│   ├── lib/               # Utility functions
+│   ├── resources/         # Dynamic SEO content routes
+│   └── page.tsx           # Homepage
+├── public/                # Static assets
+└── SEO Strategy/          # Content files
 ```
 
-## Development
+## Environment Variables
 
-### Prerequisites
+Create `.env.local` for local development:
 
-- Node.js 18+ 
-- npm or yarn
-
-### Setup
-
-1. Navigate to the web directory:
-```bash
-cd web
+```env
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
-2. Install dependencies:
-```bash
-npm install
-```
+For production, set in Vercel dashboard:
+- `NEXT_PUBLIC_SITE_URL` = Your production domain
 
-3. Run development server:
-```bash
-npm run dev
-```
+## Deployment
 
-4. Open [http://localhost:3000](http://localhost:3000)
-
-## Deployment to Vercel
-
-### Option 1: Deploy from Root (Recommended)
-
-1. Connect your repository to Vercel
-2. Set the root directory to `web` in Vercel project settings
-3. Vercel will automatically detect Next.js and deploy
-
-### Option 2: Deploy from Web Directory
-
-1. Navigate to the `web` directory
-2. Run `vercel` command or connect via Vercel dashboard
-3. Ensure content directory path is correctly resolved
-
-### Environment Variables
-
-Set the following in Vercel dashboard:
-
-- `NEXT_PUBLIC_SITE_URL` - Your production domain (e.g., `https://aiclosetstylist.com`)
-
-### Build Settings
-
-- **Framework Preset:** Next.js
-- **Root Directory:** `web` (if deploying from root)
-- **Build Command:** `npm run build`
-- **Output Directory:** `.next`
+See `../DEPLOYMENT.md` for detailed Vercel deployment instructions.
 
 ## Content Management
 
-Content files are stored in `SEO Strategy/content/` and are automatically loaded by the Next.js app. The content system:
-
-- Automatically sets `lastUpdated` dates from file creation timestamps
+Content files are loaded from `../SEO Strategy/content/` directory. The system:
+- Automatically sets `lastUpdated` from file creation dates
 - Supports pillar, subtopic, and PAA post templates
 - Generates dynamic routes at `/resources/[...slug]`
-
-## Features
-
-- ✅ Automated wardrobe scanning with computer vision
-- ✅ AI-powered outfit recommendations
-- ✅ Resale price estimation
-- ✅ Donation recommendations
-- ✅ Digital closet organization
-- ✅ Style analytics
 
 ## Tech Stack
 
 - **Framework:** Next.js 16 (App Router)
 - **Language:** TypeScript
-- **Styling:** Tailwind CSS
+- **Styling:** Tailwind CSS v4
 - **Content:** Markdown with gray-matter
 - **Deployment:** Vercel
 
-## License
 
-Private project - All rights reserved

@@ -34,3 +34,5 @@ Assumes users have smartphones with cameras and are willing to photograph their 
 
 ## 10. Positioning Statement
 "This is an AI-powered wardrobe management app for fashion-conscious consumers that helps them maximize their clothing's value through automated organization, personalized styling, and intelligent resale and donation recommendations."
+
+

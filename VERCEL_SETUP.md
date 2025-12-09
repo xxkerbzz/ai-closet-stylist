@@ -3,16 +3,16 @@
 ## ✅ Configuration Files Created
 
 ### Core Configuration
-- ✅ `web/package.json` - Dependencies and scripts
-- ✅ `web/next.config.ts` - Next.js configuration (standalone output)
-- ✅ `web/tsconfig.json` - TypeScript configuration
-- ✅ `web/vercel.json` - Vercel deployment settings
+- ✅ `package.json` - Dependencies and scripts
+- ✅ `next.config.ts` - Next.js configuration (standalone output)
+- ✅ `tsconfig.json` - TypeScript configuration
+- ✅ `vercel.json` - Vercel deployment settings
 
 ### Styling & Assets
-- ✅ `web/app/layout.tsx` - Root layout with metadata
-- ✅ `web/app/globals.css` - Tailwind CSS imports
-- ✅ `web/tailwind.config.ts` - Tailwind configuration
-- ✅ `web/postcss.config.mjs` - PostCSS configuration
+- ✅ `app/layout.tsx` - Root layout with metadata
+- ✅ `app/globals.css` - Tailwind CSS imports
+- ✅ `tailwind.config.ts` - Tailwind configuration
+- ✅ `postcss.config.mjs` - PostCSS configuration
 
 ### Deployment Files
 - ✅ `.gitignore` - Git ignore rules
@@ -50,7 +50,7 @@
 3. Import your Git repository
 
 ### 2. Configure Project
-- **Root Directory:** `web`
+- **Root Directory:** `.` (root of repository)
 - **Framework Preset:** Next.js (auto-detected)
 - **Build Command:** `npm run build` (auto-detected)
 - **Output Directory:** `.next` (auto-detected)
@@ -124,3 +124,5 @@ The project is optimized for:
 ---
 
 **Status:** ✅ Ready for Vercel Deployment
+
+

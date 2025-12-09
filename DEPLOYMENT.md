@@ -10,7 +10,7 @@
    - Vercel will auto-detect Next.js
 
 2. **Configure Project Settings**
-   - **Root Directory:** `web`
+   - **Root Directory:** `.` (root of repository)
    - **Framework Preset:** Next.js
    - **Build Command:** `npm run build` (auto-detected)
    - **Output Directory:** `.next` (auto-detected)
@@ -25,11 +25,11 @@
    - Click "Deploy"
    - Vercel will build and deploy automatically
 
-### Option 2: Deploy from Web Directory
+### Option 2: Deploy from Command Line
 
-If you prefer to deploy from the `web` directory:
+If you prefer to deploy from the command line:
 
-1. Navigate to `web` folder in terminal
+1. Navigate to project root in terminal
 2. Run `vercel` command
 3. Follow prompts
 4. Ensure content directory path is correctly resolved
@@ -58,7 +58,7 @@ The project uses Next.js 16 with:
 
 The content directory (`SEO Strategy/content/`) must be accessible during build. The path resolution:
 
-- Development: `../SEO Strategy/content` (relative to `web/app`)
+- Development: `../SEO Strategy/content` (relative to `app/`)
 - Production: Resolved from project root
 
 If you encounter content loading issues:
@@ -84,7 +84,7 @@ If you encounter content loading issues:
 
 **Solution:**
 1. Ensure `package.json` includes all dependencies
-2. Run `npm install` in `web` directory
+2. Run `npm install` in project root
 3. Verify `node_modules` is not in `.gitignore` (it shouldn't be)
 
 ### Sitemap Shows Wrong URLs
@@ -99,7 +99,7 @@ If you encounter content loading issues:
 ### Images Not Loading
 
 **Solution:**
-1. Ensure images are in `web/public/` directory
+1. Ensure images are in `public/` directory
 2. Use Next.js Image component for optimization
 3. Check image paths are relative to `public/`
 
@@ -138,3 +138,5 @@ Vercel automatically creates preview deployments for:
 - Feature branches
 
 Preview URLs use `VERCEL_URL` environment variable automatically.
+
+

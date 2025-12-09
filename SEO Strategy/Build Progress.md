@@ -43,3 +43,5 @@
 - [ ] content/Pillar - digital-closet-organization/Cluster - wardrobe-inventory-systems/Blog/what-is-the-best-wardrobe-inventory-app.md
 - [ ] content/Pillar - sustainable-fashion-practices/Cluster - clothing-resale-strategies/Blog/how-to-determine-resale-value-of-clothing.md
 - [ ] content/Pillar - sustainable-fashion-practices/Cluster - clothing-resale-strategies/Blog/what-clothes-are-worth-reselling.md
+
+

@@ -133,3 +133,5 @@ Yes, AI-powered wardrobe management supports sustainable fashion by identifying 
 See how AI Closet Stylist uses AI-powered wardrobe management to automate scanning, provide intelligent recommendations, and help you maximize your clothing's value. Download the app to start digitizing your wardrobe in minutes.
 
 [Download the App →](/contact)
+
+
